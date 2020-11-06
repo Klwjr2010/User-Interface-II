@@ -138,3 +138,8 @@ Button:hover {
     border-style: double;
     border-color: green;
 }
+
+.navbar2 {
+    display:flex;
+    justify-content: left;
+}
