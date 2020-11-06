@@ -54,7 +54,7 @@ html {
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: green;
+  background-color: rgb(0, 55, 128);
 }
 
 .dropdown-content {
@@ -96,16 +96,30 @@ p {
 }
 
 #Mainsection {
-  background: url("https://lh3.googleusercontent.com/EAZ98lvxEp1esOUFybKOAtsK2-T73rKehFcSqZCvKi8U2WiG9IP8-6OW1RAiolHq7Q8lE30IvZ2i_ZTL0gvdVZ3cGFFF5rAs-QrLzYhNz6ySrjgDLARyoQHCdAyIBe5SFKZCUdmEjH7dSDSaxlDnbEYfm-y0HfNnBt5zas6iljd7U5LS8gnOWODWoErqXv_8taM5QGlqlrdD_L6iBGezTrzkquMDbaiF3muzXiHqcZ465-xkzKHbadgBLGYg00s7BJ42dxYhXKYVVUGElNucgWP-XhEK_WQUwr68TS-zDPIZuhcvUlP3Xtje1fbUoGiWGxb4XRxwhhuJMYnKGIQqlWjY45VHv8JksY7Cu41Lj6JDnHRhbQae1luY0ZTlLhYaDRLhTDjGsvD8cEYrRf4hd4afBmrHfmIn6beYtU-GD2tuy9vy_FD-foGlpabcAxkOnDWe7q0r0BIQlH8txKRqEau75G3ANJXniXYcZt_40cCb04y1CuoJ_kxs3unPrxuLKmiy2CdOG_SKJFLPZQqZWHGP-Vppm71z4sxF1P6bnW8KeRhtDDJbvBng2-RBrBnm9JEH67FwCr4NLzbE5ox74ZXJqOJ3bGeaWl9rBTuWQwJ_hW6xVQMsBvi805_-g1pZm7ETZBEXEJopjgI19rpTZreg6q1IDUX80X1-13i30uQV0Bt0Z8Sd1c20vKpciQ=w2048-h1365-no?authuser=0");
+  background: url("Pictures/Palladiumpic.jpg");
   background-position:center;
   padding:400px;
   
   
 }
 
-Button{
+Button {
   background-color:green;
   color black;
   padding:10px;
    
+}
+
+Button:hover {
+    background-color:rgb(0, 55, 128);
+}
+
+.Gallery {
+    display: flex;
+    justify-content: space-between; 
+}
+
+.Gallery img {
+    max-width: 400px;
+    max-height: 400px;
 }
