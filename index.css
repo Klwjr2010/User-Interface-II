@@ -143,3 +143,7 @@ Button:hover {
     display:flex;
     justify-content: left;
 }
+
+.navbar2:hover {
+    background-color: rgb(0, 55, 128);
+}
