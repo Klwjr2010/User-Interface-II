@@ -1,29 +1,111 @@
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;  
+border: 0;  
+font-size: 150%;  
+font: inherit;  
+vertical-align: baseline;  
+}
 
-h1, h2, h3, h4, h5, div, span, {
-    margin: 0px;
-    padding: 5px;
-  }
+html {
+    font-family: 'Oswald', sans-serif;
+    padding: 50px black;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: black;
+}
+
+.navbar a {
+  float: right;
+  font-size: 16px;
+  color: green;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: green;
+  padding: 14px 16px;
+  background-color: black;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: green;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: black;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: green;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+h1 {
+  font-size: 150%;
+}
+.Mainsectiontext {
+
+}
+p { 
+  color: green;
+  font-size: 150%;
+  width: ;
+
+}
+
+#Mainsection {
+  background: url("https://lh3.googleusercontent.com/EAZ98lvxEp1esOUFybKOAtsK2-T73rKehFcSqZCvKi8U2WiG9IP8-6OW1RAiolHq7Q8lE30IvZ2i_ZTL0gvdVZ3cGFFF5rAs-QrLzYhNz6ySrjgDLARyoQHCdAyIBe5SFKZCUdmEjH7dSDSaxlDnbEYfm-y0HfNnBt5zas6iljd7U5LS8gnOWODWoErqXv_8taM5QGlqlrdD_L6iBGezTrzkquMDbaiF3muzXiHqcZ465-xkzKHbadgBLGYg00s7BJ42dxYhXKYVVUGElNucgWP-XhEK_WQUwr68TS-zDPIZuhcvUlP3Xtje1fbUoGiWGxb4XRxwhhuJMYnKGIQqlWjY45VHv8JksY7Cu41Lj6JDnHRhbQae1luY0ZTlLhYaDRLhTDjGsvD8cEYrRf4hd4afBmrHfmIn6beYtU-GD2tuy9vy_FD-foGlpabcAxkOnDWe7q0r0BIQlH8txKRqEau75G3ANJXniXYcZt_40cCb04y1CuoJ_kxs3unPrxuLKmiy2CdOG_SKJFLPZQqZWHGP-Vppm71z4sxF1P6bnW8KeRhtDDJbvBng2-RBrBnm9JEH67FwCr4NLzbE5ox74ZXJqOJ3bGeaWl9rBTuWQwJ_hW6xVQMsBvi805_-g1pZm7ETZBEXEJopjgI19rpTZreg6q1IDUX80X1-13i30uQV0Bt0Z8Sd1c20vKpciQ=w2048-h1365-no?authuser=0");
+  background-position:center;
+  padding:400px;
   
-  p{ 
-  color:white;
-    font-size:150%;
   
-  }
-  
-  #image-container{
-    background: url("https://lh3.googleusercontent.com/EAZ98lvxEp1esOUFybKOAtsK2-T73rKehFcSqZCvKi8U2WiG9IP8-6OW1RAiolHq7Q8lE30IvZ2i_ZTL0gvdVZ3cGFFF5rAs-QrLzYhNz6ySrjgDLARyoQHCdAyIBe5SFKZCUdmEjH7dSDSaxlDnbEYfm-y0HfNnBt5zas6iljd7U5LS8gnOWODWoErqXv_8taM5QGlqlrdD_L6iBGezTrzkquMDbaiF3muzXiHqcZ465-xkzKHbadgBLGYg00s7BJ42dxYhXKYVVUGElNucgWP-XhEK_WQUwr68TS-zDPIZuhcvUlP3Xtje1fbUoGiWGxb4XRxwhhuJMYnKGIQqlWjY45VHv8JksY7Cu41Lj6JDnHRhbQae1luY0ZTlLhYaDRLhTDjGsvD8cEYrRf4hd4afBmrHfmIn6beYtU-GD2tuy9vy_FD-foGlpabcAxkOnDWe7q0r0BIQlH8txKRqEau75G3ANJXniXYcZt_40cCb04y1CuoJ_kxs3unPrxuLKmiy2CdOG_SKJFLPZQqZWHGP-Vppm71z4sxF1P6bnW8KeRhtDDJbvBng2-RBrBnm9JEH67FwCr4NLzbE5ox74ZXJqOJ3bGeaWl9rBTuWQwJ_hW6xVQMsBvi805_-g1pZm7ETZBEXEJopjgI19rpTZreg6q1IDUX80X1-13i30uQV0Bt0Z8Sd1c20vKpciQ=w2048-h1365-no?authuser=0");
-    background-position:center;
-    padding:400px;
-    
-    
-  }
-  
-  Button{
-    background-color:green;
-    color:white;
-    padding:10px;
-    
-    
-  }
-  
-  
+}
+
+Button{
+  background-color:green;
+  color black;
+  padding:10px;
+   
+}
