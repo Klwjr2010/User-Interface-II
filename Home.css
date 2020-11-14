@@ -82,11 +82,13 @@ vertical-align: baseline;
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
 h1 {
   font-size: 150px;
   color: green;
   text-align: center;
 }
+
 .Mainsectiontext {
   color: green;
   font-size: 150%;
@@ -104,16 +106,29 @@ h1 {
 }
 
 Button {
-  background-color:green;
-  color black;
-  padding:25px;
+  
   margin-top: 20px ;
   margin-left: 350px;
-  
+  text-decoration: none;  
 }
 
 Button:hover {
     background-color:rgb(0, 55, 128);
+}
+
+.Facebooklogo img {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.Instagramlogo img {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.Twitterlogo img {
+  max-width: 100px;
+  max-height: 100px;
 }
 
 .Section2 {
@@ -144,6 +159,7 @@ Button:hover {
     justify-content: left;
 }
 
-.navbar2:hover {
+.navbar2 Button:hover {
     background-color: rgb(0, 55, 128);
+
 }
